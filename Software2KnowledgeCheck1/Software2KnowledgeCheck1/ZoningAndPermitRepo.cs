@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Software2KnowledgeCheck1;
 
-namespace Software2KnowledgeCheck1
+public class ZoningAndPermitRepo
 {
-    internal class ZoningAndPermitRepo
-    {
-        public bool ZoningApproves() => true;
+    public bool ZoningApproves() => true;
 
-        public bool GetPermit() => true;
-    }
+    public bool GetPermit() => true;
 }

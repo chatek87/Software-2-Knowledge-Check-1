@@ -1,16 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Software2KnowledgeCheck1;
 
-namespace Software2KnowledgeCheck1
+public class Apartment : Building
 {
-    internal class Apartment : Building
-    {
-        public int NumberOfUnits { get; set; }
-        public int NumberOfOpenUnits { get; set; }
-
-        public bool HasParking { get; set; }
-    }
+    public int NumberOfUnits { get; set; }
+    public int NumberOfOpenUnits { get; set; }
+    public bool HasParking { get; set; }
 }
